@@ -67,7 +67,7 @@ public class ExpenseController {
                 currRow.createCell(1).setCellValue(expense.getName());
                 currRow.createCell(2).setCellValue(expense.getDescription());
                 currRow.createCell(3).setCellValue(expense.getAmount().doubleValue());
-                currRow.createCell(4).setCellValue();
+                currRow.createCell(4).setCellValue(expense.getDate());
                 currRow.createCell(5).setCellValue(expense.getCategory());
             }
 
